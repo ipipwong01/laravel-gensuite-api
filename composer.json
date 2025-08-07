@@ -1,0 +1,16 @@
+{
+  "name": "yourname/laravel-gensuite-api",
+  "description": "Laravel wrapper for GenSuite V10 API (SMS, TAC, IOD)",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Genusis\\GenSuite\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "illuminate/support": "^9|^10|^11",
+    "guzzlehttp/guzzle": "^7.0"
+  }
+}
