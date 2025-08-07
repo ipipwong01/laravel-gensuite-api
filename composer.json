@@ -1,5 +1,5 @@
 {
-  "name": "yourname/laravel-gensuite-api",
+  "name": "jameswongdev/laravel-gensuite-api",
   "description": "Laravel wrapper for GenSuite V10 API (SMS, TAC, IOD)",
   "type": "library",
   "license": "MIT",
