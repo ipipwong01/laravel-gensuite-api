@@ -20,7 +20,7 @@ class SmsSender
         $response = Http::withHeaders([
             'Content-Type' => 'application/json',
             'Accept' => 'application/json',
-        ])->post($this->config['base_url'] . "?Key={$key}", $json);
+        ])->withBody($json, 'application/json')->post($this->config['base_url'] . "?Key={$key}");
 
         $data = $response->json();
 
